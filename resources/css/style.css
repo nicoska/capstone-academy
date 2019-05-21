@@ -26,6 +26,7 @@ body {
   height: 64px;
   position: fixed;
   z-index: 1;
+  box-shadow: 0 2px 3px 0px #B9B9B9;
 }
 
 .logo {
@@ -467,6 +468,7 @@ footer {
 /* Media queries */
 
 @media only all and (max-width: 480px) {
+
   .colmar {
     display: none;
   }
@@ -493,6 +495,7 @@ footer {
   .container.header {
     max-width: 100%;
     height: 64px;
+    box-shadow: 0 2px 3px 0px #CCCCCC;
   }
 
   .logo {
