@@ -13,7 +13,6 @@ body {
 
 .container {
   display: flex;
-  border: 2px solid blue;
 }
 
 /* Header section */
@@ -101,7 +100,6 @@ main {
   justify-content: center;
   flex-wrap: wrap;
   margin-right: 48px;
-  border: 2px solid red;
 }
 
 h1 {
@@ -209,12 +207,10 @@ p.note {
 
 .card {
   display: flex;
-  border: 2px solid red;
 }
 
 .card3 {
   display: flex;
-  border: 2px solid red;
   background-color: #D8D8D8;
 }
 
@@ -237,7 +233,6 @@ p.note {
   align-items: stretch;
   justify-content: center;
   width: 65%;
-  border: 2px solid green;
 }
 
 a.read-more {
@@ -365,19 +360,16 @@ h2.learning {
 .first-row {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid red;
   height: 100%;
 }
 
 .second-row {
   display: flex;
-  border: 2px solid red;
   flex-wrap: wrap;
 }
 
 .mosaic {
   display: flex;
-  border: 2px solid green;
   flex: 1;
   flex-wrap: wrap;
   margin: 16px;
@@ -425,7 +417,8 @@ h3.title-mobile {
 h2.exhibit {
   text-align: center;
   width: 100%;
-  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid #D8D8D8;
 }
 
 .third-section {
@@ -439,7 +432,6 @@ p.reimagine-urban {
 
 .thesis-container {
   display: flex;
-  border: 2px solid black;
   margin: auto 24px;
 }
 
@@ -477,7 +469,7 @@ footer {
 
 /* Media queries */
 
-@media only all and (max-width: 800px) {
+@media only all and (max-width: 480px) {
   .colmar {
     display: none;
   }
@@ -508,7 +500,6 @@ footer {
 
   .logo {
     justify-content: space-around;
-    border: 1px solid red;
     width: 100%;
     margin: 0;
   }
@@ -533,7 +524,6 @@ footer {
 
   .sidebar-right {
     margin-right: 0;
-    border: 2px solid red;
     align-items: flex-start;
     overflow: hidden;
     text-align: center;
@@ -611,7 +601,6 @@ footer {
   .card {
     display: flex;
     flex-direction: column;
-    border: 2px solid purple;
     width: 100%;
   }
 
@@ -619,7 +608,6 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    border: 2px solid red;
     background-color: #ffffff;
   }
 
@@ -638,7 +626,6 @@ footer {
     align-items: stretch;
     justify-content: center;
     width: auto;
-    border: 2px solid green;
     margin: 16px 16px 32px 16px;
   }
 
